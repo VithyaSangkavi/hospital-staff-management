@@ -1,0 +1,135 @@
+@charset "ISO-8859-1";
+
+body
+{
+  font-family: sans-serif;
+  font-size: 16px;
+
+}
+
+.staffreg
+{
+  width: 400px;
+  margin: 150px auto;
+  background-color: #F5F5F5;
+  padding: 40px 60px;
+  box-shadow: 0px 0px 10px #000000;
+}
+
+.staffreg td
+{
+  font-size: 16px;
+}
+
+.staffreg input[type=text]
+{
+  height: 30px;
+  width: 290px;
+  background-color: #FFFFFF;
+  margin: 10px 0px 10px 20px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 0px 2px #000000;
+}
+
+.staffreg input[type=submit], input[type=reset]
+{
+  height: 40px;
+  width : 150px;
+  margin: 20px 125px 0px;
+  border-radius: 20px;
+  border: none;
+  background-color: #00D9A5;
+  color: #FFFFFF;
+  transition-duration: 300ms;
+  font-size: 16px;
+}
+
+.staffreg input[type=submit]:hover, input[type=reset]:hover
+{
+  background-color: #6E807A;
+}
+
+.list
+{
+	width: 100%;
+}
+
+.list table
+{
+	margin: 100px auto;
+}
+
+.list table th
+{
+	background-color: #00D9A5;
+}
+
+
+.list table tr:nth-child(even)
+{
+	background-color: #f2f2f2;
+}
+
+.list table input[type=submit]
+{
+	height: 30px;
+  	width : 100px;
+  	border-radius: 20px;
+  	border: none;
+  	background-color: #00D9A5;
+  	color: #FFFFFF;
+  	transition-duration: 300ms;
+  	font-size: 14px;
+}
+
+.list table input[type=submit]:hover
+{
+	background-color: #6E807A;
+}
+
+.list caption a
+{
+	float: right;
+	text-decoration: none;
+	margin-bottom: 20px;
+	margin-left : 20px;
+	padding: 10px 20px;
+	border-radius: 20px;
+	background-color: #00D9A5;
+	color: #FFFFFF;
+	transition-duration: 300ms;
+}
+
+.list caption a:hover
+{
+	background-color: #6E807A;
+}
+
+#redbtn
+{
+	background-color: #FFFFFF;
+	color: #FF0000;
+	border: solid 1px #FF0000;
+	transition-duration: 200ms;
+}
+
+#redbtn:hover
+{
+	background-color: #FF0000;
+	color: #FFFFFF;
+}
+
+#greenbtn
+{
+	background-color: #FFFFFF;
+	color: #00D9A5;
+	border: solid 1px #00D9A5;
+	transition-duration: 200ms;
+}
+
+#greenbtn:hover
+{
+	background-color: #00D9A5;
+	color: #FFFFFF;
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Querys>
+
+	<!-- Create table staff Query -->
+	<query id="create_staff_table">
+        <![CDATA[
+            CREATE TABLE Staff(
+				StaffID varchar(10) not null,
+				FirstName varchar(25),
+				LastName varchar(25),
+				Address varchar(100),
+				Age int,
+				Email varchar(50),
+				Role  varchar(25),
+				Salary double,
+				
+				primary key (StaffID)
+			)
+        ]]>
+	</query>
+
+	<!-- DROP TABLE staff Query -->
+	<query id="drop_table">
+         <![CDATA[        
+            DROP TABLE IF EXISTS staff 
+        ]]>
+	</query>
+
+	<!-- Select all staffs Query -->
+	<query id="insert_staff">
+        <![CDATA[
+          	insert into staff (StaffID, FirstName, LastName, Address, Age, Email, Role, Salary) 
+          	values (?, ?, ?, ?, ?, ?, ?, ?)
+        ]]>
+	</query>
+
+	<!-- Select a particular staff by id Query -->
+	<query id="staff_by_id">
+         <![CDATA[        
+            select * from staff where StaffID = ?
+        ]]>
+	</query>
+
+	<!-- Select all staffs -->
+	<query id="all_staffs">
+         <![CDATA[        
+            select * from staff
+        ]]>
+	</query>
+
+	<!-- Delete a particular staff by id Query -->
+	<query id="remove_staff">
+         <![CDATA[        
+            delete from staff where StaffID = ?
+        ]]>
+	</query>
+	
+	<!-- Update a particular staff by id Query -->
+	<query id="update_staff">
+         <![CDATA[        
+            update staff as s 
+            set s.FirstName = ?, s.LastName = ?, s.Address = ?, s.Age = ?, s.Email = ?, s.Role = ?, s.Salary = ? 
+            where s.StaffID = ?
+        ]]>
+	</query>
+	
+		<!-- Get staff IDs Query -->
+	<query id="staff_ids">
+         <![CDATA[        
+            select s.StaffID from staff as s
+        ]]>
+	</query>
+
+</Querys>

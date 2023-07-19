@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+		 
+	<!--  
+	<display-name>Hospital Staff Management</display-name>
+	 	 
+	 <servlet>
+	    <servlet-name>AddStaff</servlet-name>
+	    <servlet-class>com.oop.servlet.AddStaff</servlet-class>
+	    <load-on-startup>1</load-on-startup>
+	  </servlet>
+	  
+	  <servlet>
+	    <servlet-name>UpdateStaff</servlet-name>
+	    <servlet-class>com.oop.servlet.UpdateStaff</servlet-class>
+	  </servlet>
+	  
+	  <servlet>
+	    <servlet-name>DeleteStaff</servlet-name>
+	    <servlet-class>com.oop.servlet.DeleteStaff</servlet-class>
+	  </servlet>
+	  
+	  <servlet>
+	    <servlet-name>GetStaff</servlet-name>
+	    <servlet-class>com.oop.servlet.GetStaff</servlet-class>
+	  </servlet>
+	  
+	  <servlet>
+	    <servlet-name>ListStaff</servlet-name>
+	    <servlet-class>com.oop.servlet.ListStaff</servlet-class>
+	  </servlet>
+	 
+	  <servlet-mapping>
+	    <servlet-name>AddStaff</servlet-name>
+	    <url-pattern>/AddStaff</url-pattern>
+	  </servlet-mapping>
+	  
+	  <servlet-mapping>
+	    <servlet-name>UpdateStaff</servlet-name>
+	    <url-pattern>/UpdateStaff</url-pattern>
+	  </servlet-mapping>
+	  
+	  <servlet-mapping>
+	    <servlet-name>DeleteStaff</servlet-name>
+	    <url-pattern>/DeleteStaff</url-pattern>
+	  </servlet-mapping>
+	  
+	  <servlet-mapping>
+	    <servlet-name>GetStaff</servlet-name>
+	    <url-pattern>/GetStaff</url-pattern>
+	  </servlet-mapping>
+	  
+	  <servlet-mapping>
+	    <servlet-name>ListStaff</servlet-name>
+	    <url-pattern>/ListStaff</url-pattern>
+	  </servlet-mapping>
+	  
+	  <welcome-file-list>
+	    <welcome-file>home.html</welcome-file>
+	    <welcome-file>home.htm</welcome-file>
+	    <welcome-file>home.jsp</welcome-file>
+	  
+	    <welcome-file>index.html</welcome-file>
+	    <welcome-file>index.htm</welcome-file>
+	    <welcome-file>index.jsp</welcome-file>
+	    
+	  </welcome-file-list>
+		 
+		 -->
+</web-app>
